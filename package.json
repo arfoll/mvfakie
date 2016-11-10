@@ -1,6 +1,6 @@
 {
   "name": "mvfakie",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "like mv, but fakey.",
   "bin": "mvfakie",
   "scripts": {
@@ -12,5 +12,10 @@
     "fakey"
   ],
   "author": "Brendan Le Foll",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "http://github.com/arfoll/mvfakie",
+  "bugs": {
+    "url" : "http://github.com/arfoll/mvfakie/issues"
+  },
+  "repository": "arfoll/mvfakie"
 }
