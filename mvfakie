@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+
+var args = process.argv.splice(process.execArgv.length + 2);
+
+if (args.length == 2) {
+  fs.rename(args[1], args[0], function(err) {
+    if (err) {
+      console.log(err);
+    };
+  });
+} else {
+  console.log("Usage: mvfakie DEST SOURCE");
+  console.log("   or: mvfakie DIRECTORY SOURCE");
+  console.log("Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.")
+}
+
+
+
